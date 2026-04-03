@@ -1,6 +1,6 @@
 # VRC Streamer
 
-一个类似于 [TopazChat](https://topaz.chat) 的自托管 VRChat 串流中继服务器，基于 [MediaMTX](https://github.com/bluenviron/mediamtx) 构建。
+一个类似于 [TopazChat](https://github.com/TopazChat/TopazChat) 的自托管 VRChat 串流中继服务器，基于 [MediaMTX](https://github.com/bluenviron/mediamtx) 构建。
 
 主播通过 OBS 以 RTMP 协议推流，VRChat 视频播放器通过 RTSPT 协议观看。推流使用秘密串流密钥，而观众连接到公开路径，因此密钥不会出现在 VRChat 日志中。
 
