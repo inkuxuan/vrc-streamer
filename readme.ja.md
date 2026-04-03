@@ -1,6 +1,6 @@
 # VRC Streamer
 
-[TopazChat](https://topaz.chat)に似た、VRChat向けのセルフホスト型ストリーミングリレーサーバーです。[MediaMTX](https://github.com/bluenviron/mediamtx)を使用しています。
+[TopazChat](https://github.com/TopazChat/TopazChat)に似た、VRChat向けのセルフホスト型ストリーミングリレーサーバーです。[MediaMTX](https://github.com/bluenviron/mediamtx)を使用しています。
 
 配信者はOBSからRTMPで配信し、VRChatのビデオプレイヤーはRTSPTで視聴します。配信にはシークレットストリームキーを使用し、視聴者はパブリックパスに接続するため、VRChatのログにキーが表示されることはありません。
 
