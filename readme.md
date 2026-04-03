@@ -2,7 +2,7 @@
 
 [日本語](readme.ja.md) | [中文](readme.zh.md)
 
-A self-hosted streaming relay server for VRChat, similar to [TopazChat](https://topaz.chat). Built on [MediaMTX](https://github.com/bluenviron/mediamtx).
+A self-hosted streaming relay server for VRChat, similar to [TopazChat](https://github.com/TopazChat/TopazChat). Built on [MediaMTX](https://github.com/bluenviron/mediamtx).
 
 Streamers publish from OBS via RTMP, and VRChat video players consume via RTSPT. A secret stream key is used for publishing, while viewers connect to a public path — keeping the key out of VRChat logs.
 
