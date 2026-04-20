@@ -7,4 +7,4 @@ services:
     env_file: .env
     volumes:
       - ./mediamtx.yml:/mediamtx.yml.template:ro
-    entrypoint: ["/bin/sh", "-c", "sed \"s/\\${STREAM_KEY}/$STREAM_KEY/g\" /mediamtx.yml.template > /mediamtx.yml && /mediamtx"]
+    entrypoint: ["/bin/sh", "-c", "sed \"s|\\$${STREAM_KEY}|$$STREAM_KEY|g\" /mediamtx.yml.template > /mediamtx.yml && /mediamtx"]

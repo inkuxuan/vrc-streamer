@@ -17,8 +17,10 @@ Streamers publish from OBS via RTMP, and VRChat video players consume via RTSPT.
    ```bash
    docker compose up -d
    ```
-
-To stop: `docker compose down`
+4. Stop the server:
+   ```bash
+   docker compose down
+   ```
 
 ## Usage
 

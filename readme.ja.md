@@ -15,8 +15,10 @@
    ```bash
    docker compose up -d
    ```
-
-停止する場合: `docker compose down`
+4. サーバーを停止:
+   ```bash
+   docker compose down
+   ```
 
 ## 使い方
 
